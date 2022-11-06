@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+/*Обнуление*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  display: block;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+  background-color: #000;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1366px;
+  max-height: 115px;
+}
+
+.header__container_container {
+  display: flex;
+}
+
+.header__logo_container {
+  margin: 17px 163px 20px 71px;
+}
+
+.header__logo_text {
+  color: #dadf20;
+  margin: 0px 0px 0px 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.header__container_text {
+  margin: 24px 0px 0px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.header__text {
+  color: #dadf20;
+  text-align: right;
+}
+
+.header__text:first-child {
+  padding: 0px 0px 8px 0px;
+}
+
+.header__text:last-child {
+  padding: 8px 0px 0px 0px;
+}
+
+.email {
+  color: #ac00ff;
+  text-decoration: none;
+}
+
+.header__container_phone {
+  margin: 29px 0px 0px 115px;
+}
+
+.header__phone {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #dadf20;
+}
+
+.header__phone:last-child {
+  padding: 8px 0px 0px 0px;
+}
+
+.header__container_actions {
+  margin: 20px 0px 0px 116px;
+}
+
+.header__actions_btn {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #dadf20;
+  border: 1px solid #dadf20;
+  border-radius: 25px;
+  padding: 14px 39px 13px 39px;
+  transition: 0.3s;
+}
+
+.header__actions_btn:hover {
+  background-color: #dadf20;
+  color: #ac00ff;
+}
+
+.header__actions_soc {
+  display: flex;
+  margin: 8px 0px 0px 0px;
+}
+
+.header__actions_img {
+  padding: 0px 0px 0px 11px;
+}
+
+.header__actions_img:first-child {
+  padding: 0px;
+}
+
+.header__actions_img:last-child {
+  padding: 0px 0px 0px 11px;
+}
+
+.title {
+  background-color: #dadf20;
+  justify-content: space-between;
+  display: flex;
+  max-width: 1366px;
+  height: 57px;
+  margin: 0 auto;
+}
+
+.title__text {
+  margin: 18px 0px 22px 0px;
+  color: #000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  transition-duration: 0.3s;
+}
+
+.title__text:first-child {
+  margin: 18px 0px 22px 90px;
+}
+
+.title__text:last-child {
+  margin: 18px 112px 22px 0px;
+}
+
+.title__text:hover {
+  color: #ac00ff;
+}
+
+.cottage {
+  margin: 0 auto;
+  width: 1366px;
+  height: 596px;
+  background-image: url(../img/cottage.png);
+}
+
+.cottage__catalogs {
+  display: flex;
+  justify-content: space-between;
+  width: 1366px;
+  height: 45px;
+  background-color: #fdae01;
+}
+
+.cottage__catalogs_text {
+  display: block;
+  margin: 13px 0px 0px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  transition-duration: 0.3s;
+}
+
+.cottage__catalogs_text:last-child {
+  margin: 13px 116px 0px 0px;
+}
+
+.cottage__catalogs_text:first-child {
+  margin: 13px 0px 0px 90px;
+}
+
+.cottage__catalogs_text:hover {
+  color: #ac00ff;
+}
+
+.cottage__catalogs_line {
+  margin: 5px 0px 0px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 35px;
+}
+
+.cottage__title {
+  margin: 68px 0px 0px 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  width: 875px;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.cottage__subtitle {
+  margin: 16px 0px 0px 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 472px;
+  height: 80px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.price {
+  display: flex;
+}
+
+.price__image {
+  margin: 46px 0px 0px 90px;
+}
+
+.price__about_text {
+  display: block;
+  margin: 72px 0px 0px 24px;
+  width: 217px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+
+.price__about_text:hover {
+  color: #ac00ff;
+}
